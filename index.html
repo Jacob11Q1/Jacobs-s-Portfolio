@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style-index.css">
+    <script src="https://kit.fontawesome.com/816910ede9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./Images/Black_Simple_Letters_J_and_K_Monogram__Logo-removebg-preview.png" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack - Developer</p>
+                <h1>Hi, I am Jacob <span>Qumsiyeh</span> <br>From Palestine</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------- About Me ---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/jacob.jpeg" alt="My Picture">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I started my Full Stack -Development Career in May 1st of 2025. By Joining the Axsos Academy
+                        Full Stack Developer - Bootcamp. And alsoe i want desire to be a (Full Stack Developer).
+                        By gaining the needed experience in this field.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event , 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event , 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event , 'education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI - UX</span><br>Desiging Web Page</li>
+                            <li><span>Full Stack</span><br>Developer Desiging Web Pages</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025</span><br>Axsos Full Stack BootCamp</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Axsos Academy - 2025</span><br>Full Stack Developer</li>
+                            <li><span>Information Technology - 2014</span><br>Al-Ahliya University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------- Services ---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium cumque 
+                        laborum sed illo quos tempora aspernatur asperiores a corporis!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI \ UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium cumque 
+                        laborum sed illo quos tempora aspernatur asperiores a corporis!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Full Stack - Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laudantium cumque 
+                        laborum sed illo quos tempora aspernatur asperiores a corporis!
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------- Portfolio ---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/Work Progects/work-1.PNG" alt="My First Job">
+                    <div class="layer">
+                        <h3>First Work</h3>
+                        <p>This Website is about knowing the weather 
+                            for each city for more contact me
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/Work Progects/work-2.PNG" alt="My Second Job">
+                    <div class="layer">
+                        <h3>First Work</h3>
+                        <p>This Website is about knowing the weather 
+                            for each city for more contact me
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/Work Progects/work-3.PNG" alt="My Third Job">
+                    <div class="layer">
+                        <h3>First Work</h3>
+                        <p>This Website is about knowing the weather 
+                            for each city for more contact me
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---------- Contact ---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> qumsiyeh96@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +972 - 597298205</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Jacob11QU/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/jacob11q1/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Jacob11Q1"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yacoub-qumseya-9227a2132/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2">Download My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="/post">
+                        <input type="text" name="name" placeholder="Jane Doe" required>
+                        <input type="email" name="email" placeholder="example@gmail.com" required>
+                        <textarea name="Message" id="Message" rows="7" placeholder="Your Message Here....."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @ Jacob Qumiyeh Made With <i class="fa-solid fa-heart"></i> June 2025</p>
+        </div>
+    </div>
+
+    <script src="./script-index.js"></script>
+</body>
+</html>
